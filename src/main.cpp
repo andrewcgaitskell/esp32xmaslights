@@ -194,7 +194,14 @@ void theaterChaseRainbow(int wait) {
 
 void loop() {
  
-  ArduinoOTA.handle();  
+  Serial.print("IP address: ");
+  Serial.println(WiFi.localIP());
+  delay(5000);
+  
+  ArduinoOTA.handle(); /// allows ota update
+  
+  //////////
+  
   // Fill along the length of the strip in various colors...
   colorWipe(strip.Color(255,   0,   0), 50); // Red
   colorWipe(strip.Color(  0, 255,   0), 50); // Green
@@ -206,5 +213,7 @@ void loop() {
   theaterChase(strip.Color(  0,   0, 127), 50); // Blue, half brightness
 
   rainbow(10);             // Flowing rainbow cycle along the whole strip
+  
+  
   theaterChaseRainbow(50); // Rainbow-enhanced theaterChase variant
 }
