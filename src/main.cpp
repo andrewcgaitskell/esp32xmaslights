@@ -196,7 +196,7 @@ void loop() {
  
   Serial.print("IP address: ");
   Serial.println(WiFi.localIP());
-  delay(5000);
+  //delay(5000);
   
   ArduinoOTA.handle(); /// allows ota update
   
@@ -205,7 +205,7 @@ void loop() {
   //////////
   
   // Fill along the length of the strip in various colors...
-  //colorWipe(strip.Color(255,   0,   0), 50); // Red
+  colorWipe(strip.Color(255,   0,   0), 50); // Red
   //colorWipe(strip.Color(  0, 255,   0), 50); // Green
   //colorWipe(strip.Color(  0,   0, 255), 50); // Blue
 
