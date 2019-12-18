@@ -129,7 +129,6 @@ void theaterChaseRainbow(int wait) {
 void loop() {
  
   Serial.print("IP address: ");
-  Serial.println(WiFi.localIP());
   delay(5000);
   
   //////////
