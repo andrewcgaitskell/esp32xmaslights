@@ -104,9 +104,9 @@ void setup() {
   Serial.print("IP address: ");
   Serial.println(WiFi.localIP());
   
-  strip.begin();           // INITIALIZE NeoPixel strip object (REQUIRED)
-  strip.show();            // Turn OFF all pixels ASAP
-  strip.setBrightness(50); // Set BRIGHTNESS to about 1/5 (max = 255)
+  //strip.begin();           // INITIALIZE NeoPixel strip object (REQUIRED)
+  //strip.show();            // Turn OFF all pixels ASAP
+  //strip.setBrightness(50); // Set BRIGHTNESS to about 1/5 (max = 255)
 }
 
 
@@ -214,7 +214,7 @@ void loop() {
   //theaterChase(strip.Color(127,   0,   0), 50); // Red, half brightness
   //theaterChase(strip.Color(  0,   0, 127), 50); // Blue, half brightness
 
-  rainbow(10);             // Flowing rainbow cycle along the whole strip
+  //rainbow(10);             // Flowing rainbow cycle along the whole strip
   
   
   //theaterChaseRainbow(50); // Rainbow-enhanced theaterChase variant
