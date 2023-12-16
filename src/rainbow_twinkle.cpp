@@ -1,4 +1,5 @@
 // Thank you to : https://www.instructables.com/Magic-Rainbow-XmasParty-Lights-NeoPixel-Arduino/
+// NB does not work in Arduino IDE
 
 // NeoPixel Rainbow pixel string/Xmas tree LEDs
 
