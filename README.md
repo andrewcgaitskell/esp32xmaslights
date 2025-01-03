@@ -22,7 +22,7 @@ Used web installer
 
 https://install.wled.me/
 
-With esp32 you need to keep the boot butron pressed when pressing install.
+With esp32 you need to keep the boot button pressed when pressing install.
 
 The downloadable installers are very old.
 
